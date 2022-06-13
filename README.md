@@ -1,8 +1,8 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7985817&assignment_repo_type=AssignmentRepo)
+ [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7985817&assignment_repo_type=AssignmentRepo)
 # Knowledge Check #1
 ## Web Development - Course 1
 
-Welcome to your first knowledge check for Code Louisville's Web Development Track. Please reveiw the following list of changes and corrections to the following site. The following assesment is `Open Book` meaning you may use the internet, books, and notes to arrive at your answers. 
+Welcome to your first knowledge check for Code Louisville's Web Development Track. Please review the following list of changes and corrections to the following site. The following assesment is `Open Book` meaning you may use the internet, books, and notes to arrive at your answers. 
 
 
 Please complete the following list of items, but also feel free to customize the images and text to your liking. 

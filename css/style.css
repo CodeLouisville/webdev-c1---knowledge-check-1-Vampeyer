@@ -27,6 +27,35 @@ body {
 /* Layout
 ========================================================================== */
 
+.main-logo span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4a0f1;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+    border: 3em 4em; 
+    border-color: rgb(172, 66, 243);
+}
+
+.lightblue {
+
+    color: #00bac0;
+}
+
+.mainintro {
+
+    background-color: #29326a;
+    padding: auto;
+    border-style: double;
+    border-color: #8793e2;
+    border-radius: .5rem; 
+    border-radius: 15% 
+    ;
+}   
+
+
 .header-container {
     background: #1b1b27;
     display: flex;
@@ -39,8 +68,6 @@ body {
     color: #F1F1F1;
     width: 100%;
     max-width: 1000px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
@@ -67,8 +94,9 @@ body {
 .aboutme-container {
     background: #29326a;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
     padding: 48px 0;
 }
 
@@ -76,12 +104,23 @@ body {
     color: #F1F1F1;
     width: 100%;
     max-width: 1000px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left ;
     padding: 12px;
+    border-color: #8793e2;
+    border:  2em 3em;
 }
+
+img {
+
+    border-color: #8793e2;
+    border-style: groove;
+    border-radius: 7%;
+    display: inline-block;
+    justify-content: stretch
+    align-items: center;
+        
+} 
 
 .projects-container {
     background: #232443;
@@ -102,16 +141,20 @@ body {
     padding: 12px;
 }
 
-.projects-item {
+.projects-item { 
+
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 
 .footer-container {
     background: #1b1b27;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 8px 0;
+    padding: 8px 1px;
 }
 
 .footer-content {
@@ -158,9 +201,9 @@ a:hover, a:active {
 .hero-content .btn, .hero-content .btn:visited  {
     width: 100%;
     max-width: 260px;
-    background: #f08527;
-    color: #1b1b27;
-    border: 2px solid #f08527;
+    background: rgb(11, 228, 108);
+    color:  #012327d7 ;
+    border: 2px solid #2de7ff;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -173,22 +216,22 @@ a:hover, a:active {
 }
 
 .hero-content .btn:focus {
-    background: #333333;
-    color: #F1F1F1;
+    background: red;
+    color: rgb(10, 19, 30);
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    color:orange;
+    border: 2px solid #2de7ff;
 }
 
 .btn, .btn:visited  {
     width: 100%;
     max-width: 180px;
-    background: #f08527;
-    color: #1b1b27;
-    border: 2px solid #f08527;
+    background: rgb(30, 213, 226);
+    color: white;
+    border: 2px solid rgb(16, 101, 107);
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -204,6 +247,19 @@ a:hover, a:active {
     color: #F1F1F1;
     border: 2px solid #74b44a;
 }
+
+
+.btn:
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -235,6 +291,13 @@ a:hover, a:active {
     font-size: 18px;
     color: #F1F1F1;
     line-height: 1.5;
+}
+
+#hero .hero-content {
+
+    display: flex;
+    align-content: center;
+
 }
 
 section h2 {
@@ -284,9 +347,16 @@ footer {
 /* Images and Videos
 ========================================================================== */
 
+/*  ==================Sidenote: - broken source image link of kitty at  https://placekitten.com/200/140   , created local kitty image.  */ 
+
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+    display: inline;
+    align-self: center;
+    justify-items: center;
+    align-content: space-between;
+    
 }
 
 
@@ -305,60 +375,22 @@ footer {
 =============================================================================
 */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px)  {
 
 
 
 }
 
-@media only screen and (min-width: 480px) {
+@media scfreen only and (min-width: 480px;) {
 
 
 
 }
 
-@media only screen and (min-width: 768px) {
-	
-    .projects-content {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-    }
+@media only screen and (min-width:768px;) {
 
-    .main-nav {
-        display: block;
-    }
-
-    .mobile-nav {
-        display: none;
-    }
-
-    ul#navigation {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-    }
-    
-    ul#navigation li a {
-        color: #F1F1F1;
-        font-family: 'Cabin', sans-serif;
-        padding: 6px 12px;
-        border: solid 2px transparent;
-        text-transform: uppercase;
-    }
-    
-    ul#navigation li a:hover {
-        color: #F1F1F1;
-        font-family: 'Cabin', sans-serif;
-        padding: 6px 12px;
-        border-bottom: solid 2px #74b44a;
-    }
 
 }
-
-
 /* 	
 =============================================================================
  PRINT STYLES
@@ -380,3 +412,8 @@ footer {
 	p, h2, h3 { orphans: 3; widows: 3; }
 	h2, h3{ page-break-after: avoid; }
 }
+
+
+
+
+
